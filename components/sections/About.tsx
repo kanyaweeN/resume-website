@@ -1,3 +1,5 @@
+import { SectionTitle } from "@/components/ui";
+
 const stats = [
   { label: "Years Experience", value: "3+" },
   { label: "Projects Completed", value: "20+" },
@@ -46,15 +48,5 @@ export default function About() {
         </div>
       </div>
     </section>
-  );
-}
-
-export function SectionTitle({ title, subtitle }: { title: string; subtitle: string }) {
-  return (
-    <div className="text-center">
-      <p className="text-indigo-500 text-sm font-semibold tracking-widest uppercase mb-2">{subtitle}</p>
-      <h2 className="text-4xl font-extrabold text-gray-900 dark:text-white">{title}</h2>
-      <div className="mt-4 mx-auto w-16 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full" />
-    </div>
   );
 }

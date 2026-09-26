@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { SectionTitle } from "./About";
+import { SectionTitle } from "@/components/ui";
 
 const contactInfo = [
   { icon: "✉️", label: "Email", value: "your.email@example.com", href: "mailto:your.email@example.com" },

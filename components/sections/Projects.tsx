@@ -1,4 +1,4 @@
-import { SectionTitle } from "./About";
+import { SectionTitle } from "@/components/ui";
 
 const projects = [
   {
